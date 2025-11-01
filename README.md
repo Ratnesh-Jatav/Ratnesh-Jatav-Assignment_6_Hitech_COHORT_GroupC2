@@ -1,18 +1,64 @@
-# React + Vite
+# Assignment_6_Hitech_COHORT_GroupC2
+A simple Student Feedback App built using React and TailwindCSS. It allows users to submit feedback with name, course, and message, and displays them in dynamic cards.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# 🎓 Student Feedback App
 
-Currently, two official plugins are available:
+A clean and responsive React + TailwindCSS project that allows students to share feedback.  
+The app demonstrates component-based architecture, form handling with React Hooks, and styled UI using TailwindCSS.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## 🚀 Features
+- 🧩 Modular React Components (Header, FeedbackForm, Card)
+- 🎨 TailwindCSS styling for a modern UI
+- 🧠 Form handling with `useState` hook
+- 🖥️ Feedback submission logs data in the console
+- 💬 Dynamic Card components display feedback
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🏗️ Project Structure
+src/
+├─ components/
+│ ├─ Header.jsx
+│ ├─ FeedbackForm.jsx
+│ └─ Card.jsx
+├─ App.jsx
+├─ main.jsx
+└─ index.css
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
-# Ratnesh-Jatav-Assignment_6_Hitech_COHORT_GroupC2
-# Ratnesh-Jatav-Assignment_6_Hitech_COHORT_GroupC2
+yaml
+Copy code
+
+---
+
+## ⚙️ Installation & Setup
+
+```bash
+# 1. Clone this repository
+git clone https://github.com/your-username/student-feedback-app.git
+
+# 2. Navigate into the folder
+cd student-feedback-app
+
+# 3. Install dependencies
+npm install
+
+# 4. Run the development server
+npm run dev
+Open your browser at http://localhost:5173.
+
+🧠 Tech Stack
+React (Vite) — Frontend framework
+
+TailwindCSS — Styling
+
+JavaScript (ES6+)
+
+
+👨‍💻 Author
+Ratnesh Jatav
+Web & Software Developer
+📍 Ghaziabad, India
+🔗 LinkedIn
+🐙 GitHub
